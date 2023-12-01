@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import Toolbar from './components/Toolbar/Toolbar';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-<h1 className="text-3xl font-bold ">
-      Hello world!
-    </h1>
-  )
+	return (
+		<div>
+			<Toolbar />
+		</div>
+	);
 }
 
-export default App
+export default App;
